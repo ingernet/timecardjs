@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "jquery": "^3.3.1",
+    "jqueryui": "^1.11.1",
+    "timepicker": "^1.11.12"
+  }
+}

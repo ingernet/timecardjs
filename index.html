@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>Timecard</title>
+        <link rel="stylesheet" type="text/css" href="assets/css/clockr.css" />
+        <link rel="stylesheet" type="text/css" href="assets/css/jquery.timepicker.css" />
+        <script src="node_modules/jquery/dist/jquery.min.js"></script>
+        <script type="text/javascript" src="node_modules/timepicker/jquery.timepicker.js"></script>
+        <script type="text/javascript" src="assets/js/clockr.js"></script>
+    </head>
+    <body>
+        <h1>Timecard</h1>
+        <p>A quick little calculator that helps me (and probably only me) figure out clockin-clockout time spans in hours and minutes.</p>
+        <p>Purposely lowbrow. Runs offline. Srsly just a calculator</p>
+
+    <form>
+    <div class="row">
+        <div class="column">
+            Time In: <input type="text" class="clockr time ui-timepicker-input" name="time-in" id="time-in" data-time-format="H:i" /><br />
+        </div>
+    
+        <div class="column">
+            Time Out: <input type="text" class="clockr" name="time-out" id="time-out"  data-time-format="H:i" /><br />
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="column">
+            Total Time: <span id="totaltime"></span> hours 
+        </div>
+    </div>
+
+    </body>
+</html>
